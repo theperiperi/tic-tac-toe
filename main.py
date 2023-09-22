@@ -11,5 +11,6 @@ for i in range(9):
     ttt.print_board()
     if ttt.checkwin()==True:
         break
+print("game over")
     
 
