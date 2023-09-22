@@ -64,7 +64,7 @@ class TicTacToe:
                 self.win=True 
 
             #vertical wins
-            if self.board[0][i]==self.board[1][i] and self.board[0][i]==self.board[2][i] and self.board[i][0]!=" " :
+            if self.board[0][i]==self.board[1][i] and self.board[0][i]==self.board[2][i] and self.board[0][i]!=" " :
                 self.win=True 
             
         #diagonal wins
