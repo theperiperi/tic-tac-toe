@@ -73,9 +73,6 @@ class TicTacToe:
         if self.board[0][2]==self.board[1][1] and self.board[0][2]==self.board[2][0]and self.board[2][0]!=" " :
             self.win=True 
         
-        if self.win==True:
-            print("game over")
-
         else:
             pass
 
