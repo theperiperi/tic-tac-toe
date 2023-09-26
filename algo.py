@@ -17,7 +17,7 @@ class TicTacToe:
         for i in range(self.n):
             for j in range(self.n):
                 if j!=self.n-1:
-                    print(self.board[i][j],"|",end=" ")
+                    print(self.board[i][j],"｜",end="")
                 else:
                     print(self.board[i][j])
             
@@ -25,7 +25,7 @@ class TicTacToe:
                 pass
             else:
                 for i in range(self.n):
-                    print("_"," ",end=" ")
+                    print("－",end="  ")
                 print() 
     
     def empty(self):
