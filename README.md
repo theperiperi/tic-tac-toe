@@ -1,2 +1,3 @@
 # tic-tac-toe
-i'm just learning how git works.nothing to see here.
+
+basic tic tac toe application on python
