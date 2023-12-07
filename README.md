@@ -1,3 +1,3 @@
 # tic-tac-toe
 
-basic tic tac toe application on python
+play noob tic tac toe with a friend. 
